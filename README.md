@@ -17,6 +17,8 @@ mvn compile exec:java -Dexec.mainClass="com.distkeyvalstore.DistKeyValStoreAppli
 
 Now you have 3 nodes running in the cluster. The node addresses are defined in the application.properties file.
 
+It is now possible to GET and PUT according to the REST-api described in the assignment.
+
 ## Discussion of technology choises and solution
 I have chosen java because this is what is mainly used at Delta Projects and also I am pretty familiar with it. 
 
